@@ -3,7 +3,7 @@ const Mochadoc = require('./index.js');
 
 module.exports = {
   context: __dirname,
-  devtool: false,
+  devtool: null,
   entry: "./js/scripts.js",
   output: {
     path: __dirname + "/*.js",
