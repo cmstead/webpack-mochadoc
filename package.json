@@ -1,0 +1,32 @@
+{
+  "name": "webpack-mochadoc",
+  "version": "1.0.0",
+  "description": "Mochadoc plugin for the Webpack build system",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cmstead/webpack-mochadoc.git"
+  },
+  "keywords": [
+    "mochadoc",
+    "webpack",
+    "tests",
+    "documentation",
+    "api"
+  ],
+  "author": "Chris Stead",
+  "license": "MPL-2.0",
+  "bugs": {
+    "url": "https://github.com/cmstead/webpack-mochadoc/issues"
+  },
+  "homepage": "https://github.com/cmstead/webpack-mochadoc#readme",
+  "dependencies": {
+    "mochadoc-runner": "^1.0.1"
+  },
+  "devDependencies": {
+    "webpack": "^3.8.1"
+  }
+}
